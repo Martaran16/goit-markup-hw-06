@@ -915,6 +915,10 @@ img {
   transition: fill var(--anim-transition);
 }
 
+.privacy-policy-link {
+  text-decoration-line: underline;
+}
+
 .modal .hero-btn {
   margin-top: 24px;
 }
