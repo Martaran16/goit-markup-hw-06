@@ -46,7 +46,7 @@ ul {
   padding: 0;
   margin: 0;
 }
-a {
+.link {
   text-decoration: none;
 }
 .visually-hidden {
@@ -474,7 +474,10 @@ img {
 .over-footer {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.blok-footer {
+  margin-right: 120px;
 }
 
 .logo-footer {
@@ -516,6 +519,10 @@ img {
   line-height: 1.5;
 }
 /* footer link */
+
+.contacts-active {
+  margin-right: 80px;
+}
 
 .footer-link-icon {
   display: flex;
